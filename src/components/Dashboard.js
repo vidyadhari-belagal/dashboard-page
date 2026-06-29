@@ -6,7 +6,6 @@ import DataTable from "./DataTable";
 const Dashboard = () => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
-  console.log("search",search)
   const [highlight, setHighlight] = useState(false);
 
   useEffect(() => {
