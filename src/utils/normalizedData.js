@@ -1,6 +1,6 @@
 export const jsonConversion = (data) => {
   return data.map((item) => {
-    let date;
+    let date
 
     if (typeof item.timestamp === "number") {
       date = new Date(item.timestamp * 1000);
